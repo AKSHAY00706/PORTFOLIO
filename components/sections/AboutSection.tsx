@@ -395,7 +395,8 @@ export default function AboutSection() {
                 LinkedIn ↗
               </a>
               <a
-                href="#"
+                href="/resume.pdf"
+download="Akshay_Obulapuram_Resume.pdf"
                 className="btn btn-r"
                 style={{ fontSize: "10px", padding: "9px 18px" }}
               >

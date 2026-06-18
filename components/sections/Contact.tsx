@@ -60,7 +60,8 @@ export default function Contact() {
         </div>
 
         <div className="rv d2" style={{textAlign:"center",marginBottom:"80px"}}>
-          <a href="#" className="btn btn-r" style={{fontSize:"12px",padding:"14px 36px"}}>
+          <a href="/resume.pdf"
+download="Akshay_Obulapuram_Resume.pdf" className="btn btn-r" style={{fontSize:"12px",padding:"14px 36px"}}>
             Download Resume
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M12 15V3M6 9l6 6 6-6"/><path d="M3 20h18"/>

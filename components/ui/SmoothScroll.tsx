@@ -19,10 +19,10 @@ export default function SmoothScroll() {
           wheelMultiplier: 0.8,
         });
 
-        function raf(time: number) {
-          lenis.raf(time);
-          requestAnimationFrame(raf);
-        }
+        const raf = (time: number) => {
+  lenis.raf(time);
+  requestAnimationFrame(raf);
+};
         requestAnimationFrame(raf);
       } catch (e) {
         // Lenis optional — fallback to native scroll silently

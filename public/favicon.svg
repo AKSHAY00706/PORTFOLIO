@@ -1,0 +1,50 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="512" height="512" fill="#040406" rx="60"/>
+
+  <!-- Grid dots -->
+  <g opacity="0.2">
+    <circle cx="102" cy="102" r="2.5" fill="#c0392b"/>
+    <circle cx="204" cy="102" r="2.5" fill="#c0392b"/>
+    <circle cx="308" cy="102" r="2.5" fill="#c0392b"/>
+    <circle cx="410" cy="102" r="2.5" fill="#c0392b"/>
+    <circle cx="102" cy="410" r="2.5" fill="#c0392b"/>
+    <circle cx="204" cy="410" r="2.5" fill="#c0392b"/>
+    <circle cx="308" cy="410" r="2.5" fill="#c0392b"/>
+    <circle cx="410" cy="410" r="2.5" fill="#c0392b"/>
+  </g>
+
+  <!-- Corner brackets -->
+  <path d="M60 96 L60 60 L96 60" fill="none" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M452 96 L452 60 L416 60" fill="none" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M60 416 L60 452 L96 452" fill="none" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M452 416 L452 452 L416 452" fill="none" stroke="#c0392b" stroke-width="7" stroke-linecap="round"/>
+
+  <!-- Outer ring -->
+  <circle cx="256" cy="256" r="175" fill="none" stroke="#c0392b" stroke-width="1.2" opacity="0.22"/>
+
+  <!-- Cross hair lines -->
+  <line x1="68" y1="256" x2="100" y2="256" stroke="#c0392b" stroke-width="2" opacity="0.45"/>
+  <line x1="412" y1="256" x2="444" y2="256" stroke="#c0392b" stroke-width="2" opacity="0.45"/>
+  <line x1="256" y1="68" x2="256" y2="100" stroke="#c0392b" stroke-width="2" opacity="0.45"/>
+  <line x1="256" y1="412" x2="256" y2="444" stroke="#c0392b" stroke-width="2" opacity="0.45"/>
+
+  <!-- Subtle cross -->
+  <line x1="68" y1="256" x2="444" y2="256" stroke="#c0392b" stroke-width="0.6" opacity="0.1"/>
+  <line x1="256" y1="68" x2="256" y2="444" stroke="#c0392b" stroke-width="0.6" opacity="0.1"/>
+
+  <!-- AO text -->
+  <text
+    x="256" y="310"
+    font-family="Arial Black, sans-serif"
+    font-weight="900"
+    font-size="196"
+    fill="#c0392b"
+    text-anchor="middle"
+    letter-spacing="-6"
+  >AO</text>
+
+  <!-- Center pulse -->
+  <circle cx="256" cy="256" r="5" fill="#e74c3c" opacity="0.8"/>
+  <circle cx="256" cy="256" r="10" fill="none" stroke="#c0392b" stroke-width="1.2" opacity="0.4"/>
+</svg>
